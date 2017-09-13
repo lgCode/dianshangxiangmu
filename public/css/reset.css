@@ -1,0 +1,28 @@
+/****************************
+ *date:2017/07/21;
+ *name:项目html标签的重置;
+ *author:lg;
+ */
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-color:#fdfdfd;
+}
+ul,ol{
+	list-style:none;								
+}
+p{
+	border:0;
+}
+dl,dt,dd{
+	border: 0;
+}
+
+div,h1,h2,h3,h4,h5,h6,input,i,b{
+	border: 0;
+	font-style:normal;
+	font-family: "微软雅黑";
+	font-weight: normal;
+}

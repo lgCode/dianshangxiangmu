@@ -1,0 +1,20 @@
+/****************************
+ *date:2017/08/16;
+ *name:购物车页面--checkbox skin css;
+ *author:lg;
+ */
+
+ .checkboxSkin {
+ 	width:20px;height:20px;
+ 	border-radius: 5px;
+ 	background-color: #1B7E5A;
+ 	display: block;
+ 	
+ }
+ .checkboxSkin img{
+	width:25px;height:25px;
+	margin:-4px 0 0 -3px;
+ } 
+
+
+

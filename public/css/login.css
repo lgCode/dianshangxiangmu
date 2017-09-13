@@ -1,0 +1,167 @@
+/****************************
+ *date:2017/07/21;
+ *name:电商项目 用户登录页css;
+ *author:lg;
+ */
+
+ /* loginTitle */
+ #loginWrap .loginTitle{
+ 	width:1183px;height:80px;
+ 	margin:0 auto;
+ 	background: url('../images/loginTitle.jpg') no-repeat 100px center;
+ }
+
+ #loginWrap .loginDiv{
+ 	width:990px;height:475px;
+ 	margin:0 auto;
+ 	background-image:url('../images/temp/temp9.jpg');
+ }
+ #loginWrap .loginForm{
+ 	float: right;
+ 	width:348px;height:361px;
+ 	background:#fff;
+	margin:58px 12px 0 0;
+	position: relative;
+ }
+
+ /* 扫码账号登录选择区域 */
+#loginWrap .formTitle{
+	width:100%;height:54px;
+	border-bottom:1px solid #ededed;
+	margin-bottom:20px;
+}
+#loginWrap .formTitle label,.formTitle span{
+	width:48%;height:54px;
+	float: left;
+	text-align:center;
+	line-height: 54px;
+	font-size:22px;
+}
+#loginWrap .formTitle label{color:#363636;}
+#loginWrap .formTitle span{
+	color:#d21a1c;
+	font-weight: bold;
+}
+#loginWrap .formTitle i{
+	float: left;
+	color:#ededed;
+	position: relative;top:15px;left:0;
+}
+
+/* 账户密码输入区域 */
+#loginWrap .loginItem{
+	width:304px;height:38px;
+	margin:0 auto;
+	border:1px solid #959595;
+	position: relative;
+}
+#loginWrap .loginItem label{
+	float: left;
+	width:38px;height:38px;
+	background-color:#EBEBEB;
+	background-image:url('../images/icon/icon_10.png');
+	background-repeat: no-repeat;
+	border-right:1px solid #959595;
+}
+#loginWrap .loginItem label.bg1{
+	background-position:center 12px;
+}
+#loginWrap .loginItem label.bg2{
+	background-position:center -30px;
+}
+#loginWrap .loginItem input{
+	float: left;
+	width:229px;height:38px;
+	line-height:38px;
+	font-size:16px;color:#666;
+	padding-left:11px;
+}
+#loginWrap .loginItem i{
+	width:19px;height:16px;
+	position: absolute;top:10px;right:5px;
+	background-image:url('../images/icon/icon_11.png');
+}
+
+/* 自动登录区域 */
+#loginWrap .autoLoginBtn{
+	width:304px;height:25px;
+	margin:23px auto;
+	font-size:15px;color:#363636;
+	line-height: 25px;
+}
+#loginWrap .autoLoginBtn input{
+	float:left;
+	margin:7px 8px 0 0;
+}
+#loginWrap .autoLoginBtn label{
+	float: left;
+	cursor:pointer;
+}
+#loginWrap .autoLoginBtn a{
+	float: right;
+	color:#000;
+	text-decoration: none;
+	cursor:pointer;
+}
+#loginWrap .autoLoginBtn a:hover{
+	text-decoration: underline;
+}
+
+/* 登录按钮区域 */
+#loginWrap .formSubmitBtn{
+	width:305px;height:34px;
+	margin:0 auto;
+	display: block;
+	background-color:#d21a1c;
+	font-size:20px;color:#fff;
+	line-height:34px;
+	/*letter-spacing:10;字体间隔*/
+}
+/* 合作伙伴&立即注册注册 */
+#loginWrap .loginFooter{
+	width:100%;height:33px;
+	background-color:#f2f2f2;
+	border-top:1px solid #ededed;
+	padding:17px 0 0 0;
+	position: absolute;bottom:0;left:0;
+}
+#loginWrap .loginFooter label,
+#loginWrap .loginFooter span,
+#loginWrap .loginFooter i{
+	float: left;
+}
+#loginWrap .loginFooter label,
+#loginWrap .loginFooter span,
+#loginWrap .loginFooter a{
+	height:22px;
+	padding-left:27px;
+	font-size:14px;color:#000;
+	line-height: 22px;
+	background-image:url('../images/icon/icon_12.png');
+	background-repeat: no-repeat;
+	overflow: hidden;
+	cursor:pointer;
+}
+#loginWrap .loginFooter label{
+	background-position: left top;
+}
+#loginWrap .loginFooter i{
+	width:1px;height:18px;
+	margin:3px 11px 0 11px;
+	background-color:#baabba;
+}
+#loginWrap .loginFooter span{
+	background-position: left -27px;
+}
+#loginWrap .loginFooter a{
+	float: right;
+	color:#8b0d0d;
+	text-decoration: none;
+	font-size:16px;
+	line-height: 20px;
+	background-position: left -52px;
+}
+
+#loginWrap .loginFooter a:hover{
+	text-decoration:underline;
+}

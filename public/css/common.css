@@ -1,0 +1,43 @@
+/****************************
+ *date:2017/07/21;
+ *name:整站通用的css;
+ *author:lg;
+ */
+ .fl{float: left;}
+ .fr{float: right;}
+
+ .mt10{margin-top:10px;}
+ .ml10{margin-left:10px!important}
+
+ .mr20{margin-right:20px;}
+ .mb20{margin-bottom:20px!important;}
+ .ml20{margin-left:20px;}
+
+
+ .pl14{padding-left:14px;}
+ .pl20{padding-left:20px;}
+
+ .left0{left:0;} 
+ .right0{right:0;}
+
+ .border1px{border:1px solid #ccc;}/*淡灰色*/
+ .border2px{
+ 	width:100%;height:2px;
+ 	background:#AAA;
+ 	font-size:10px;
+ 	overflow: hidden;
+ 	margin:21px 0 12px 0;
+ }
+.red{
+	color:#e4393c!important;
+ 	font-weight:bold;
+}
+
+/* 清除浮动 */
+ .clearfix:after{
+	content:"\0020";
+	display: block;
+	height:0;
+	clear:both;
+	overflow:hidden;
+ }

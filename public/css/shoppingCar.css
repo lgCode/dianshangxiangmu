@@ -1,0 +1,206 @@
+/****************************
+ *date:2017/07/21;
+ *name:电商项目 购物车css;
+ *author:lg;
+ */
+
+ /* 购物车title */
+ .allGoodsNumTop{
+ 	width:1183px;height:40px;
+ 	margin:0 auto;
+ }
+ .allGoodsNumTop p,.allGoodsNumTop i{
+ 	float: left;
+ 	font-size:22px;color:#E4393C;
+ 	font-style:normal;
+ 	font-weight:bold;
+ 	border-bottom:3px solid #E4393C;
+ }
+ .allGoodsNumTop p{
+ 	padding-right:10px;
+ }
+ /* carTitle */
+ .carTitle{
+ 	width:1170px;height:30px;
+ 	font-size:14px;color:#666;
+ 	background-color:#F3F3F3;
+ 	margin:-10px auto 0 auto;
+ 	border-bottom:1px solid #E0E0E0;
+ 	border-top:1px solid #E0E0E0;
+ 	padding:20px 0 0 13px;
+ }
+ .carTitle input{
+ 	float: left;
+ 	margin-top:4px;
+ 	margin-right:11px;
+ }
+ .carTitle label,.carTitle .p1,.carTitle .p2,
+ .carTitle .p3,.carTitle .p4,.carTitle .p5{
+ 	float:left;
+ }
+ .carTitle .p1{margin-left:94px;}
+ .carTitle .p2{margin-left:542px;}
+ .carTitle .p3{margin-left:96px;}
+ .carTitle .p4{margin-left:106px;}
+ .carTitle .p5{margin-left:79px;}
+
+
+ /* 购物车里面的订单信息 */
+
+ #cartWrap .goodsItem{
+ 	width:1157px;height:123px;
+ 	margin:0 auto;
+ 	background-color:#FFF4E8;
+ 	border:1px solid #aeaeae;
+ 	padding:18px 12px;
+ 	color:#333;font-size:14px;
+ }
+ #cartWrap .goodsItem input.chkBtn{
+ 	float: left;
+ 	margin-right:22px;
+ }
+ #cartWrap .goodsItem label{
+ 	float:left;
+ 	width:96px;height:96px;
+ 	margin-right:12px;
+ 	border:1px solid #989898;
+ 	overflow: hidden;
+ }
+
+ /* 商品图标 */
+ #cartWrap .goodsItem label img{
+ 	width:96px;height:96px;
+ }
+
+ #cartWrap .goodsItem span{
+ 	float:left;
+ 	width:240px;height:110px;
+ 	margin-right:23px;
+ }
+ #cartWrap .goodsItem p.p1{
+ 	float: left;
+ 	width:200px;height:110px;
+ 	margin-right:85px;
+ 	color:#666666;
+ }
+ #cartWrap .goodsItem p.p2{
+ 	float: left;
+ 	width:100px;height:25px;
+ 	margin-right:20px;
+ }
+
+ /* 数量选择 */
+ #cartWrap .goodsNumInput{
+ 	float:left;
+ 	width:94px;height:24px;
+ 	margin-right:55px;
+ 	/*	border:1px solid #989898;*/
+ }
+ #cartWrap .goodsNumInput input{
+ 	line-height:25px;
+ 	text-align:center;
+ }
+ #cartWrap .goodsNumInput .a{
+ 	float:left;
+ 	width:20px;height:25px;
+ 	border: 1px solid #cacbcb;
+ 	border-right:0;
+ 	background-color:#fff;
+ }
+ #cartWrap .goodsNumInput .b{
+ 	float:left;
+ 	width:51px;height:23px;
+ 	border: 1px solid #cacbcb;
+ }
+ #cartWrap .goodsNumInput .c{
+ 	float:left;
+ 	width:19px;height:25px;
+ 	border: 1px solid #cacbcb;
+ 	border-left:0;
+ 	background-color:#fff;
+ }
+ /* 有货 */
+ #cartWrap .goodsNumInput span{
+ 	width:94px;
+ 	padding:5px 33px;
+ 	color:#aaa;
+ }
+
+ #cartWrap .goodsItem p.p3{
+ 	float: left;
+ 	width:100px;height:30px;
+ 	margin-right:20px;
+ 	font-weight:bold;
+ }
+ #cartWrap .goodsItem p.p4{
+ 	float: left;
+ }
+ #cartWrap .goodsItem .delBtn:hover{
+	color:red;
+	cursor: pointer;
+ }
+
+ /* footer部分 */
+ .footerWrap{
+ 	width:1183px;height:60px;
+ 	margin:27px auto;
+ 	border:1px solid #f0f0f0;
+ 	position: relative;
+ }
+ /* 按钮 */
+ .footerWrap input.chkBtn{
+ 	float: left;
+ 	margin:24px 0 0 10px;
+ }
+ /* 全选 */
+ .footerWrap label{
+ 	float: left;
+ 	margin:20px 0 0 10px;
+ 	color:#666666;
+ }
+ /* 删除选中商品 */
+ .footerWrap p.p1{
+ 	float:left;
+ 	margin:20px 0 0 10px;	
+ 	margin-right:551px;
+ 	color:#666666;
+ }
+ /* 已选择商品数量 */
+ .footerWrap p.p2{
+ 	color:#9999a5;
+ 	position: absolute;top:9px;right:339px;
+ 	padding-right:20px;
+ 	background:url('../images/icon/icon_8.png') no-repeat right center;
+ }
+ .footerWrap .p2 i{
+ 	padding:0 2px;
+ 	color:#e64346;font-weight: bold;
+ }
+/* 总价 */
+ .footerWrap .allGoodsPrice{
+ 	color:#9999a5;
+ 	position: absolute;top:6px;right:144px;
+ 	padding-right:25px;
+ 	background:url('../images/icon/icon_9.jpg') no-repeat right center;
+ }
+ .footerWrap .allGoodsPrice i{
+ 	color:#e64346;font-weight: bold;font-size:18px;
+ }
+ /* 已节省 */
+ .footerWrap .saveMoney{
+ 	color:#9999a5;
+ 	position: absolute;top:32px;right:193px;
+ }
+ .footerWrap .saveMoney i{
+ 	color:#666666;font-size:14px;
+ }
+
+ /* 结算按钮 */
+ .footerWrap input.toPay{
+ 	width: 115px;height:60px;
+ 	position: absolute;top:0;right:0;
+ 	background-color:#e64346;
+ 	display:block;
+ 	font-size:24px;color:#fff;
+ 	cursor:pointer;
+ }

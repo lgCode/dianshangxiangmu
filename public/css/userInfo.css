@@ -1,0 +1,203 @@
+/****************************
+ *date:2017/07/21;
+ *name:用户信息页的css;
+ *author:lg;
+ */
+
+ /* 左侧导航 */
+ #userInfoWrap .navUserInfo{
+ 	float: left;
+ 	width: 130px;
+ 	padding:30px 0 0 18px;
+ }
+ #userInfoWrap .navUserInfo dt{
+ 	height:27px;
+ 	color:#000;
+ 	line-height: 27px;
+ 	font-weight: bold;
+ }
+ #userInfoWrap .navUserInfo dd{
+ 	clear:both;
+ 	height:24px;
+ 	line-height: 24px;
+ 	font-size:14px;color:#777777;
+ }
+
+ /* 右侧实体 */
+ #userInfoWrap .mainRight{
+ 	float: right;
+ 	width:650px;height:700px;
+ 	margin:16px 0 19px 0;
+ 	background-color:#fff;
+ }
+ #userInfoWrap .mainRightTitle{
+ 	float:left;
+ 	clear: both;
+ 	margin: 24px 0 0 40px;
+ 	color:#666;
+ 	font-size: 14px;
+ }
+ #userInfoWrap .mainRightTitle p{
+ 	float: left;
+ 	margin-right:20px;
+ }
+ #userInfoWrap .mainRightTitle p.bordB{
+ 	font-weight:bold;
+ 	color:#f00;
+ 	border-bottom:2px solid #f00;
+ }
+
+ /* 具体信息区域 */
+ #userInfoWrap .mainRightContent{
+ 	float: left;
+ 	clear:both;
+ 	width:580px;
+ 	margin:30px 0 0 60px;
+ }
+ 
+ #userInfoWrap .mainRightContent li{
+ 	clear:both;
+ 	height:30px;
+ 	line-height: 30px;
+ 	margin-bottom:15px;
+ }
+ #userInfoWrap .mainRightContent li:after{
+ 	content:"\0020";
+ 	display: block;
+ 	height:0;
+ 	clear:both;
+ 	overflow: hidden;
+ }
+
+/* li下的label标签样式 */
+ #userInfoWrap .mainRightContent li label{
+ 	float: left;
+ 	width:80px;height:30px;
+ 	line-height:30px; 
+ 	text-align: right;
+ 	color:#b77d95;font-size:14px;
+ }
+ #userInfoWrap .mainRightContent li label i{
+ 	color: #f00;
+ }
+
+ /* li下的span标签样式 */
+ #userInfoWrap .mainRightContent li span{
+ 	float: left;
+ 	height:30px;
+ 	line-height: 30px;
+ 	font-size:14px; color:#666666;
+ 	font-weight:bold;
+ }
+
+ /* 修改 */
+ #userInfoWrap .mainRightContent li a{
+ 	float: left;
+ 	height:30px;
+ 	line-height: 30px;
+ 	color:#005ea7;font-size:14px;
+ 	margin:0 4px 0 27px;
+ 	text-decoration: none;
+ }
+ #userInfoWrap .mainRightContent li a:hover{
+ 	text-decoration:underline;
+ }
+ #userInfoWrap .mainRightContent li p{
+ 	float: left;
+ 	height:30px;
+ 	line-height: 30px;
+ 	color:#666;font-size:14px;
+ }
+
+
+ /* 昵称输入框 */
+ #userInfoWrap .mainRightContent li input.nameEdit{
+ 	float: left;
+ 	width:155px;height:30px;
+ 	line-height: 30px;	
+ 	border:1px solid #d4bfbf;
+ 	padding-left:10px;
+ }
+
+ /* 性别单选按钮 */
+ #userInfoWrap .mainRightContent li input.radioSex{
+ 	float:left;
+ 	margin: 10px 15px 0 0px;
+ }
+ #userInfoWrap .mainRightContent li .labelSex{
+ 	float:left;
+ 	width: auto;
+ 	line-height: 30px;
+ 	margin: 1px 17px 0 -13px;
+ 	cursor:pointer;
+ }
+
+ /* 生日选择 */
+ #userInfoWrap .mainRightContent li .year,
+ #userInfoWrap .mainRightContent li .months,
+ #userInfoWrap .mainRightContent li .day{
+ 	float: left;
+ 	width:68px;height:29px;
+ 	border:1px solid #ccc;
+
+ }
+ #userInfoWrap .mainRightContent li b{
+ 	float: left;
+ 	margin:0 8px;
+ }
+
+ /* 兴趣爱好列表 */
+ #userInfoWrap .likeList{
+ 	float: left;
+ 	width:400px;
+ }
+ #userInfoWrap .likeList h5{
+ 	height:30px;
+ 	line-height: 30px;
+ 	display:block;
+ 	clear:both; 
+ 	margin-left: 2px;
+ }
+ #userInfoWrap .likeList ul{
+ 	float: left;
+ 	width:400px;
+ 	margin:0 0 0 -8px;
+ }
+ #userInfoWrap .likeList li{
+ 	float: left;
+ 	clear:none;
+ 	height:34px;
+ 	line-height: 34px;
+ 	font-size:14px;color:#666;
+ 	margin:10px 10px;
+ 	padding:0 9px;
+ 	border:1px solid #666;
+ 	cursor:pointer;
+ }
+ #userInfoWrap .likeList li.red{
+ 	border:1px solid #f00;
+ }
+ #userInfoWrap .likeList li:hover{
+ 	background-color:#DDD;
+ }
+
+ /* 邮箱&真实姓名 输入框 */
+ #userInfoWrap .mainRightContent li input.disInput{
+ 	float: left;
+ 	height:28px;
+ 	line-height: 28px;
+ 	background-color:#fff;
+ }
+
+ /* 提交按钮 */
+ #userInfoWrap .mainRightContent li input.submitBtn{
+ 	float: left;
+ 	width:55px;height:25px;
+ 	display:block;
+ 	line-height: 25px;
+ 	background-image:url('../images/bg_1.jpg');
+ 	background-repeat: repeat-x;
+ 	border:1px solid #ccc;
+ 	border-radius: 5px;
+ 	cursor:pointer;
+ }

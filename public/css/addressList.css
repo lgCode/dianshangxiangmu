@@ -1,0 +1,156 @@
+/****************************
+ *date:2017/07/21;
+ *name:电商项目 地址列表页css;
+ *author:lg;
+ */
+
+ /* 左侧导航 */
+ #addressListWrap .leftAddressNav{
+ 	float: left;
+ 	width:92px;
+ 	margin:20px 23px 0 23px;
+ }
+ #addressListWrap .leftAddressNav dt{
+ 	color:#000;font-size:16px;
+ 	font-weight:bold;
+ 	margin-bottom:17px;
+ 	cursor: pointer;
+ }
+ #addressListWrap .leftAddressNav dd{
+ 	color:#777777;font-size:14px;
+ 	margin-bottom:10px;
+ 	cursor: pointer;
+ }
+ /* 底部两个广告图片 */
+ #addressListWrap .leftAddressNav img{
+ 	width:90px;height:70px;
+ 	display: block;
+ 	margin-bottom:11px;
+ 	cursor: pointer;
+ }
+
+ /* 右侧地址列表 */
+ #addressListWrap .rightAddressInfo{
+ 	float: left;
+ 	width:864px;height:539px;
+ 	background-color:#fff;
+ 	margin:11px 15px 0 0;
+ }
+
+ /* 新增地址按钮所在部分 */
+ #addressListWrap .addAddressInfo{
+ 	width:830px;height:30px;
+ 	margin:22px 0 0 19px;
+ }
+ #addressListWrap .addAddressInfo input{
+ 	float:left;
+ 	width:115px;height:30px;
+ 	line-height: 30px;
+ 	font-size:15px;color:#000;
+ 	font-weight: bold;
+ 	background-color:#f0f9ea;
+ 	border-radius: 2px;
+ 	cursor: pointer;
+ }
+ #addressListWrap .addAddressInfo p{
+ 	float:left;
+ 	height:30px;
+ 	line-height: 30px;
+ 	font-size:14px;color:#ccc;
+ 	margin-left:20px;
+ }
+ #addressListWrap .addAddressInfo p b{
+ 	color:#71b291;
+ }
+
+ /* 地址具体信息区域 */
+ #addressListWrap .addressDetailInfo{
+ 	width: 795px;
+ 	padding: 7px;
+ 	margin: 22px 21px 0 19px;
+ 	position: relative;
+ }
+
+ /* title部分 */
+ #addressListWrap .detailInfoTitle{
+ 	margin:13px 0 0 13px;	
+ }
+ #addressListWrap .detailInfoTitle label{
+ 	float: left;
+ 	height:18px;
+ 	line-height: 18px;
+ 	color:#956666;font-size:16px;
+ 	font-weight: bold;
+ 	position: relative;
+ 	padding-right:36px;
+ }
+ #addressListWrap .detailInfoTitle label i{
+ 	float: left;
+ 	width:17px;height:17px;
+ 	position: absolute;top: 0;right:0;
+ 	background: url('../images/icon/icon_13.jpg') no-repeat;
+ 	cursor: pointer;	
+ }
+ #addressListWrap .detailInfoTitle input.defaultAddress{
+ 	float: left;
+ 	width:64px;height:22px;
+ 	line-height: 22px;
+ 	background:#ffaa45;
+ 	margin:-2px 0 0 20px;
+ 	color:#fff;font-size:14px;
+ 	cursor: pointer;
+ }
+ #addressListWrap .detailInfoTitle span{
+ 	float: right;
+ 	width:19px;height:16px;
+ 	background:url('../images/icon/icon_11.png') no-repeat center;
+ 	cursor:pointer;
+ }
+
+ /* 具体地址信息部分 */
+ #addressListWrap .addressDetailInfo ul{
+ 	clear:both;
+ 	width: 545px;
+ 	margin-top:20px;
+ 	padding-left:10px;
+ }
+ #addressListWrap .addressDetailInfo ul li{
+ 	clear: both;
+ 	height:26px;
+ 	line-height: 26px;
+ }
+ #addressListWrap .addressDetailInfo ul li label{
+ 	float: left;
+ 	width:80px;height:26px;
+ 	line-height: 26px;
+ 	font-size:14px;color:#b1a6a6;
+ 	text-align: right;
+ }
+ #addressListWrap .addressDetailInfo ul li span{
+ 	float: left;
+ 	height:26px;
+ 	line-height: 26px;
+ 	color:#666666;font-size:14px;
+ }
+ #addressListWrap .addressDetailInfo ul li p{
+ 	float: left;
+ 	height:26px;
+ 	line-height: 26px;
+ 	color:#545454;font-size:14px;
+ 	margin-right:10px;
+ }
+
+ /* 一键购买&编辑区域 */
+ #addressListWrap .addressDetailInfo .edit{
+ 	width:120px;height:20px;
+ 	position: absolute;bottom:8px;right:28px;
+ 	font-size:14px;
+ }
+ #addressListWrap .addressDetailInfo .edit a{
+ 	margin-left:5px;
+ 	color:#005ea7;
+ 	text-decoration:none;
+ }
+ #addressListWrap .addressDetailInfo .edit a:hover{
+ 	text-decoration: underline;
+ }

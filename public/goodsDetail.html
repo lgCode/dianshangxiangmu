@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">	
+<head>
+	<meta charset="UTF-8"/>
+	<title>电商项目-----商品详情页</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/layout.css">	
+	<link rel="stylesheet" type="text/css" href="css/goodsDetail.css">
+</head>
+<body>
+	<br>
+	<br>
+	<br>
+	<!-- 商品详情页 start -->
+	<div id="goodsWrap">
+		<!-- 左侧图片 -->
+		<div class="wrapLeft">
+			<div id="goodsBigImg" class="goodsBigImg">
+				<div id="bigImgMask"></div>
+				<img id="bigImgId" src="images/temp/temp8.jpg">
+				<i></i>
+				<!-- 大图的局部显示 -->
+				<div class="bgImgWrap" id="bgImgWrapId">
+					<img />
+				</div>
+			</div>
+			<div class="smallImgList">
+				<label class="sty1" id="toLeft"></label>
+				<div class="ulWrap">
+					<ul id="smallImgId"></ul>
+				</div>
+				<span class="sty2" id="toRight"></span>
+			</div>
+		</div>
+		<!-- 右侧 -->
+		<div class="wrapRight">
+			<!-- 商品信息 -->
+			<div class="goodsInfo" id="goodsInfoId">
+				<!-- <h1>联想（ThinkPad） E470c（20H3A013CD）14英寸笔记本电脑（i5-6200U 8G 500G Win10）黑色 </h1>
+				<p>京东专享大内存特价！22.3mm轻薄体验，180度开合灵活耐用！</p> -->
+			</div>
+
+			<!-- 配送 title-->
+			<div class="sendGoodsAddress">
+				<label>配 送 至</label>
+				<div class="addressTitle" id="addressTitleId">
+					<p>请选择配送地址</p>
+					<i></i>
+				</div>
+			</div>
+
+			<!-- 配送城市列表 start-->
+			<div class="addressList" id="addressListId">
+				<p>选择新地址</p>
+				<ul>
+					<li id="tabA" class="yellow">请选择省份</li>
+					<li id="tabB">请选择市区</li>
+					<li id="tabC">请选择城市</li>
+				</ul>
+				<div class="nameItemList" id="provinceId"></div>
+				<div class="nameItemList" id="cityId" style="display:none;"></div>
+				<div class="nameItemList" id="areaId" style="display:none;"></div>	
+			</div>
+			<!-- 配送城市列表 end-->
+
+			<!-- 加入购物车按钮 start-->
+			<div class="toShoppingCar">
+				<div class="inputWrap">
+					<input class="input_A" id="input_btnA" type="text" value="1"/>
+					<input class="input_B" id="input_btnB" type="button" value="+"/>
+					<input class="input_C" id="input_btnC" type="button" value="-"/>
+				</div>
+				<!-- 
+				<input class="toShoppingCarBtn" type="button" value="加入购物车"/> -->
+				<a href="shoppingCar.html"  class="toShoppingCarBtn" target="_blank">加入购物车</a>
+			</div>
+			<!-- 加入购物车按钮 end -->
+
+		</div>
+	</div>
+	<!-- 商品详情页 end -->
+	<br>
+	<br>
+	<br>
+</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.7.1.min.js" ></script>
+<script type="text/javascript" src="js/config.js"></script>
+<script type="text/javascript" src="js/common.js" ></script>
+<script type="text/javascript" src="js/goodsDetail.js"></script>
+<script type="text/javascript" src="js/addressMenu.js"></script>
+
